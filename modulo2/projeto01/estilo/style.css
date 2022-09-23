@@ -11,6 +11,8 @@
 
 <a href="https://br.freepik.com/vetores-gratis/conjunto-de-icones-de-servicos-de-seguros_4407966.htm#page=4&query=seguro&position=25&from_view=search">Imagem de macrovector_official</a> no Freepik
 
+<a href="https://www.freepik.com/free-photo/happy-man-his-wife-having-meeting-with-financial-advisor-signing-agreement-office_26345136.htm#page=2&query=business%20insurance&position=2&from_view=search">Image by Drazen Zigic</a> on Freepik
+
 */
 
 :root {
@@ -172,4 +174,13 @@ footer {
     text-align: center;
     font-weight: bold;
     padding: 5px;
+}
+
+.fundo a {
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+.fundo a:hover {
+    text-decoration: underline;
 }
