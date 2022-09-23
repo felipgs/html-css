@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.Sword-Blade-1-hex { color: #8E9394; }
+.Sword-Blade-2-hex { color: #515454; }
+.Sword-Blade-3-hex { color: #CCD3D4; }
+.Sword-Blade-4-hex { color: #D7DFE0; }
+.Sword-Blade-5-hex { color: #B3B9BA; }
+
+/* Color Theme Swatches in RGBA */
+.Sword-Blade-1-rgba { color: rgba(142, 147, 148, 1); }
+.Sword-Blade-2-rgba { color: rgba(81, 84, 84, 1); }
+.Sword-Blade-3-rgba { color: rgba(204, 211, 212, 1); }
+.Sword-Blade-4-rgba { color: rgba(215, 223, 224, 1); }
+.Sword-Blade-5-rgba { color: rgba(179, 185, 186, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Sword-Blade-1-hsla { color: hsla(190, 2, 56, 1); }
+.Sword-Blade-2-hsla { color: hsla(180, 1, 32, 1); }
+.Sword-Blade-3-hsla { color: hsla(187, 8, 81, 1); }
+.Sword-Blade-4-hsla { color: hsla(186, 12, 86, 1); }
+.Sword-Blade-5-hsla { color: hsla(188, 4, 71, 1); }

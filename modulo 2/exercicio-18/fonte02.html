@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    
+    <style>
+        @font-face{
+            font-family: 'celta';  /* <- Aqui foi atribuido um nome para a fonte externa */
+            src: url('fonts/carolingia.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face{
+            font-family: 'medieval'; /* <- Aqui foi atribuido um nome para a fonte externa */
+            src: url('fonts/Seagram\ tfb.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body{
+            font-family: 'medieval', arial, sans-serif;
+        }
+        
+        h1,h2{
+            font-family: 'celta', times;
+            font-size: 2em;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <h1>Capitulo 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus exercitationem consequuntur quidem quos minus? Rem nam modi eveniet minima tempore in ad harum recusandae tenetur fugit amet, temporibus, odit ipsa.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ipsum numquam sint magnam at quia, itaque fugiat dolorum earum culpa quod dignissimos qui vel, error omnis asperiores? Deleniti, laboriosam dolores?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi harum asperiores id, ipsa beatae pariatur ex excepturi unde error odit. Sequi quas amet beatae exercitationem iusto doloribus, illum voluptatem dignissimos.</p>
+
+    <h2>Utilizando fontes externas</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aliquid pariatur quasi laudantium corrupti distinctio necessitatibus suscipit aut facilis, ab magni beatae? Harum, ullam atque? Porro provident facilis illum ad.</p>
+</body>
+</html>
