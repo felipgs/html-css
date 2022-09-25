@@ -12,6 +12,10 @@
     padding: 0px;
    }
 
+   body {
+      background-color: white;
+   }
+
    header {
     background-color: black;
     color: white;
@@ -29,6 +33,7 @@
 
    header p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
     padding-bottom: 50px;
     font-size: 1em;
    }
@@ -36,34 +41,87 @@
    header a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
    }
 
    header a:hover {
     text-decoration: underline;
    }
 
-   main p {
-    font-family: 'Satisfy', cursive;
-    font-size: 3em;
-   }
-
    main {
     margin: auto;
    }
 
+   .normal {
+      background-color: white;
+      font-family: 'Satisfy', cursive;
+      font-size: 4vw;
+
+      padding-top: 5vw;
+      padding-right: 0px;
+      padding-bottom: 15vw;
+      padding-left: 5vw;
+   }
+
+   .normal p {
+      text-align: justify;
+      line-height: 2em;
+
+   }
+
+   .imagem {
+      font-family: 'Satisfy', cursive;
+      color: white;
+      font-size: 4vw;
+
+      padding-top: 5vw;
+      padding-right: 44vw;
+      padding-bottom: 15vw;
+      padding-left: 5vw;
+   }
+
+
+   .imagem p {
+      text-align: justify;
+      line-height: 2em;
+      background-color: rgba(0, 0, 0, 0.418);
+      border: 1px solid transparent;
+      padding-left: 16px;
+   }
 
    #imagem1 {
     background-image: url(../imagens/background001.jpg);
-    background-position: center center;
+    background-position: center right;
     background-size: cover;
     background-attachment: fixed;
    }
 
    #imagem2 {
     background-image: url(../imagens/background002.jpg);
-    background-position: center center;
+    background-position: center right;
     background-size: cover;
     background-attachment: fixed;
+   }
+
+   footer {
+      background-color: black;
+      padding: 10px;
+   }
+
+   footer p {
+      color: white;
+      text-align: center;
+      font-size: 1.2em;
+   }
+
+   footer a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+   }
+
+   footer a:hover {
+      text-decoration: underline;
    }
 
    
