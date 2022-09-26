@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            text-align: left;
+        }
+
+        tbody > tr:nth-child(2n) { /* configuração para fazer estilo zebrado em tabelas   */
+            background-color: lightgoldenrodyellow;
+        }
+
+        th {
+            background-color: lightgray;
+            color: black;
+            border: 1px solid black;
+            width: 20px;
+            padding: 8px;
+        }
+
+        td {
+            border-bottom: 1px solid black;
+            padding: 10px;
+        }
+
+        td img {
+            display: inline-block;
+            vertical-align: bottom;
+        }
+
+        .bandeira {
+            width: 180px;
+        }
+
+        .num {
+            text-align: center;
+        }
+
+        #borda1, #borda2, #borda3, #borda4 {
+            border-left: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Copa do mundo FIFA 2022</h1>
+    <!--
+        Anatomia para tabelas grandes
+        table           
+            Thead
+                tr, td, th
+            Tbody
+                tr, td, th
+            Tfoot
+                tr, td, th
+    -->
+    <table>
+        <caption>Grupo G</caption>
+        <thead>
+            <tr>
+                <th scope="col">Pos.</th>
+                <th scope="col">Equipe</th>
+                <th scope="col">Pts</th>
+                <th scope="col">PJ</th>
+                <th scope="col">V</th>
+                <th scope="col">E</th>
+                <th scope="col">D</th>
+                <th scope="col">GM</th>
+                <th scope="col">GC</th>
+                <th scope="col">SG</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="num" id="borda1">1</td>
+                <td class="bandeira"><img src="imagens/Brazil-Flag-icon.png" alt="bandeira do Brasil"> Brasil</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num" style="border-right: 1px solid black;">0</td>
+            </tr>
+            <tr>
+                <td class="num" id="borda2">2</td>
+                <td class="bandeira"> <img src="imagens/Serbia-Flag-icon.png" alt="bandeira da Sérvia"> Sérvia</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num" style="border-right: 1px solid black;">0</td>
+            </tr>
+            <tr>
+                <td class="num" id="borda3">3</td>
+                <td class="bandeira"> <img src="imagens/Switzerland-Flag-icon.png" alt="bandeira da Suiça"> Suiça</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num" style="border-right: 1px solid black;">0</td>
+            </tr>
+            <tr>
+                <td class="num" id="borda4">4</td>
+                <td class="bandeira"> <img src="imagens/Cameroon-Flag-icon.png" alt="bandeira de camarões"> Camarões</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num" style="border-right: 1px solid black;">0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
